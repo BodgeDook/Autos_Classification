@@ -1,17 +1,13 @@
 The description:
 
-'have finally built my first neural_network that can figure out the car's brand name (at least, 'hope so).
-'donwloded scikit-learn lib to use KNeighborsClassification algorithm to teach my n-n (neural network).
-In nearest future, I'll make it look more professional and usable (I'll also may add some more brands if 'found more cars datsets).
-
-And also, I'll leave here my cars dataset so anyone would be able to use it or to find some information they need.
+This project includes the database of current car models and brands which was reformed by me. The most part of the time
+was spent on building the data so it could look and be workable. It uses simple knn algorithm to know the mark of
+your car by the database's features. There are only few car marks but can be added more later (we'll see...).
 
 Also, some notes about used libraries:
   1) To read the excel-data you need to import the 'openpyxl' lib, so pandas would be able to read the 'datasets' like mine.
-  2) Another note is about scikit-learn: 'used scale and KNeighborsClassifier to learn the n-n (scale is used to
+  2) Another note is about scikit-learn: I used scale and KNeighborsClassifier to learn the n-n (scale is used to
   generalise all values to a common 'mashstab' or a value).
-  3) Also, 'used one-hot-encoding to encode the string parts of the data into the numbers. It belongs to the pandas lib and looks like: 'pd.get_dummies(...)'.
-     'can say that this funtion already exists in a pandas lib, so you don't need to donwload any other libs like openpyxl.
-
-LITTLE_REMARK: instead of 'I', I use the " ' " - apotstroph: instead of writing "I'll explain that part of a code", I'd write: "'ll explain that part of a code".
-Say what you want, but 'just like that type of 'I' - wirinting, so, please, do not wonder about it:)
+  3) Also, I used one-hot-encoding to encode the string parts of the data into the numbers. It belongs to the pandas lib and looks like: 'pd.get_dummies(...)'.
+     I can say that this function already exists in a pandas lib, so you don't need to donwload any other libs like openpyxl.
+     
